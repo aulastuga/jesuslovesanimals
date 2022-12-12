@@ -17,7 +17,7 @@ let ref=event.headers.referer;
       statusCode: 301,
       headers: {
         'cache-control': 'public, max-age=0, must-revalidate',
-        location: 'https://presspointtt24.netlify.app/posts/'+pathName[4]
+        location: 'https://animallove.netlify.app/posts/'+pathName[4]
       }
     }
   }
