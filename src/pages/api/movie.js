@@ -17,6 +17,6 @@ export default function postAPI(req, res) {
   else
     //return NextResponse.next();
     return new Response(" URL = "+url +" queryObject = "+ JSON.stringify(queryObject.id));
-   // res.redirect('https://life4animals.vercel.app/posts/'+ JSON.stringify(queryObject.id).substring(1));
+   // res.redirect('https://jesuslovesanimals.vercel.app/posts/'+ JSON.stringify(queryObject.id).substring(1));
     
 }
